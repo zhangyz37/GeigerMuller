@@ -1,2 +1,2 @@
 # GeigerMuller
-Geant4 demonstration simulation of a Geiger-Muller counter. 
+GEANT simulation of a Geiger-Muller counter, for demonstrating abilities of Geant4.
