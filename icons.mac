@@ -1,0 +1,24 @@
+
+/gui/addIcon "Open macro file" open /control/execute
+/gui/addIcon "Save viewer state" save /vis/viewer/save
+
+# Cursors style icons 
+/gui/addIcon "Move" move 
+/gui/addIcon "Rotate" rotate 
+# Particle 
+/gui/addMenu particle Particle
+/gui/addButton particle electron-  "/gun/particle e-"
+/gui/addButton particle positron+  "/gun/particle e+"
+/gui/addButton particle gamma      "/gun/particle gamma"
+#
+# Energy
+/gui/addMenu energy Energy
+/gui/addButton energy  500-keV  "/gun/energy 500 keV"
+/gui/addButton energy  1-MeV  "/gun/energy 1 MeV"
+/gui/addButton energy  5-MeV  "/gun/energy 5 MeV"
+/gui/addButton energy  10-MeV  "/gun/energy 10 MeV"
+/gui/addButton energy  50-MeV  "/gun/energy 50 MeV"
+# 
+# Surface Style icons
+/gui/addIcon "Surfaces" solid 
+/gui/addIcon "Wireframe" wireframe 
