@@ -56,15 +56,15 @@ After giving the necessary permissions for setup script, run:
  
 #### Run in batch mode
 
-After build, in the directory of build (emcal_build), open a terminal window and enter:
+After build, in the directory of build (gm_build), open a terminal window and enter:
 
 ```
-./DB_EMCal <numberofevents> <physicslist> <typeofcut> 
+./GM <numberofevents> <physicslist> <typeofcut> 
 ```
 
 #### Run in interactive mode
 
-After build, in the directory of program (DB_EMCal), open a terminal window and enter:
+After build, in the directory of program (GeigerMuller), open a terminal window and enter:
 
 ```
 ./interactive.sh
